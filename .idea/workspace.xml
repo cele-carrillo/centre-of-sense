@@ -2,18 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd8f621b-593c-4117-af35-15a954cfaf7f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/header-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/cele.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/cristina.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/team/ricardo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/template.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/template.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/css/agency.css" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/css/agency.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/head.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/head.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/approach.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/about/approach.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/benefits.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/about/benefits.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/about/how.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/about/how.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/asana-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/asana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/corporate.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/dhyana-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/dhyana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/kriya-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/kriya.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/mantra-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/mantra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/mudra-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/mudra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/pranayama-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/puja-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/session.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/workshop.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/yoganidra-thumbnail.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/angas/yoganidra.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,23 +64,80 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="YAML" value="434" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="20" />
+          <entry key="YAML" value="456" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="8" />
+          <entry key="CSS" value="1" />
+          <entry key="HTML" value="12" />
+          <entry key="Markdown" value="1" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+            <state relative-caret-position="180">
+              <caret line="228" column="13" lean-forward="true" selection-start-line="228" selection-start-column="13" selection-end-line="228" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/css/agency.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="257" column="43" selection-start-line="257" selection-start-column="43" selection-end-line="257" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_data/template.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/en/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/head.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -91,7 +160,14 @@
       <find>entry_ricardo</find>
       <find>asana</find>
       <find>4</find>
+      <find>secondary</find>
+      <find>brand</find>
+      <find>.navbar-de</find>
+      <find>0.5</find>
     </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -100,7 +176,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_includes/css/agency.css" />
+        <option value="$PROJECT_DIR$/_data/template.yml" />
       </list>
     </option>
   </component>
@@ -116,6 +195,7 @@
     <option name="width" value="1364" />
     <option name="height" value="935" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -127,6 +207,26 @@
             <path>
               <item name="cos2" type="b2602c69:ProjectViewProjectNode" />
               <item name="cos2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cos2" type="462c0819:PsiDirectoryNode" />
+              <item name="_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cos2" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cos2" type="462c0819:PsiDirectoryNode" />
+              <item name="_layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cos2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cos2" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -162,17 +262,18 @@
       <option name="presentableId" value="Default" />
       <updated>1548750748300</updated>
       <workItem from="1548750749599" duration="1601000" />
-      <workItem from="1548910206078" duration="4514000" />
+      <workItem from="1548910206078" duration="7676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6115000" />
+    <option name="totallyTimeSpent" value="9277000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="316" y="23" width="1364" height="935" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31316188" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31316188" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -185,7 +286,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32977462" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32977462" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -209,9 +310,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/en/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/angas_grid.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -223,9 +321,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/team.html">
@@ -244,10 +339,48 @@
         <state relative-caret-position="-75" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/en/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        <state relative-caret-position="180">
+          <caret line="228" column="13" lean-forward="true" selection-start-line="228" selection-start-column="13" selection-end-line="228" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/css/agency.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="257" column="43" selection-start-line="257" selection-start-column="43" selection-end-line="257" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/template.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
         </state>
       </provider>
     </entry>
