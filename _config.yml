@@ -56,7 +56,6 @@ people:
     - title: envelope
       url: mailto:cele@somaticbalance.com.au
 
-
 # Build settings
 markdown: kramdown
 permalink: pretty

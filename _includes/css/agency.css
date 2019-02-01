@@ -559,8 +559,8 @@ a.timeline-link{
     text-decoration: none;
 }
 
-a.timeline-link:hover{
-    font-size: 22px;
+a.timeline-link:hover .timeline-image {
+    background-color: #{{ site.data.template.color.secondary }};
 }
 
 @media(min-width:768px) {
@@ -668,6 +668,8 @@ a.timeline-link:hover{
 
 .team-member p {
     margin-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 aside.clients img {
