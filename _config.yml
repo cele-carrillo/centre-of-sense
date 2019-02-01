@@ -5,7 +5,6 @@ baseurl: ""
 lang: en
 
 languages:
-  es: Español
   en: English
 
 # Site settings
@@ -13,200 +12,6 @@ full_title: "Centre of Sense: A somatic meditation"
 title: Centre of Sense #TODO se puede poner que diga algo mas en la tab del browser?
 email: info@yogestalt.com #TODO change
 
-misc:
-  #TODO delete
-  blog_url: http://blog.yogestalt.com
-  blog_caption: Blog
-
-# translations
-t:
-  en:
-    misc:
-      close: Close
-      description: "The Centre of Sense is a mind and body informed approach to support people in exploring their senses."
-    intro:
-      lead_in: "Somatic meditation for the"
-      title: "body and mind"
-      btn_more: Start Making Sense
-    yogestalt:
-      menu: About
-      title: "What is the centre of Sense?"
-      subtitle: "The Centre of Sense is a mind and body informed approach to support people in exploring their senses. We offer somatic experiences that draw on the modalities of breath work, sound healing, intuitive touch, mindfulness and movement. For so long we have felt the benefits meditation has on the mind, the Centre of Sense supports the integration of the body in the experience."
-      contact_link: "Get<br>in touch<br>today!"
-    team:
-      menu: Meet Us
-      title: Who we are
-      subtitle: "Rediscover your senses"
-      footer: "Our offering is grounded in awareness of people's needs. Our goal is to support our clients and enable them to respond in more organic ways."
-    practice:
-      menu: Offerings
-      title: Offerings
-      subtitle: How we can work together
-    timeline:
-      traditional_practices:
-        title: How we work
-        text: "At the Centre of Sense, we offer both individual and group experiences, with a focus on self inquiry, interactive exercises, mindful engagements, playful release and expression. Using breath, movement, sound and senses as a means of exploring wants, needs, boundaries and preconceived ideas, to find alignment in what you think, feel and do ffer practical tools for daily life which can be used at any time."
-      intention:
-        title: A client led approach
-        text: "So each experience is tailored and accessible to every person allowing the individual to participate as much or as little as is useful. We understand that everyone will show up differently we respect how they want to engage In Yogestalt there is a permanent intention to withdraw from the preconceived ideas in order to begin a journey of self-discovery, becoming aware of the opposing aspects that make us who we are and which give rise to the turmoil of our  consciousness. Yogestalt proposes various ways of practicing so as to identify these opposites, as well as the tension between. Once this tension becomes obvious, how to respond to it appears organically. This organic response would be similar to when it itches and we scratch, or when we feel thirsty and drink water, so as to satisfy our need in a spontaneous and not speculative manner."
-      practice:
-        title: Benefits
-        text: "Even though sessions are different for everyone, some of the benefits usually reported include: mental clarity and increased self-awareness, stress and tension relief, sense of connection and groundedness, increased motivation and enthusiasm, energy and vitality, improved mood, time invested in self care, opportunity & freedom to “be”"
-#      learnings:
-#        title: What we learn
-#        text: "By practicing we learn to contact our own polarities: the left side and the right side, what is accepted and what is rejected; we learn to discover where we feel tension and where relaxation, where we are open and where closed. We also learn to get in touch with emotions such as joy and sorrow, cruelty and compassion, aggression and submission, love and fear. As well as with many other opposing aspects we discover through experience."
-#      present:
-#        title: Being present
-#        text: "From the practice of being fully present, states of deep concentration and awareness arise. This brings about a break in the flow of thoughts which results in an accurate and authentic doing and being. In this state, we can rediscover the movement and shape of our own feelings and thoughts, as well as those emerging from the encounter with others, relearning to communicate the needs that originate from this interaction. You learn to be present in the here and now, to connect with your own polarities, sensations, feelings, thoughts, intuition, with the superficial and deep aspects of yourself, with what is being done, how it’s being done, what is being felt, and what needs surface."
-    angas:
-      asana:
-        title: In person and on-line Sessions
-        subtitle: "We offer a variety of somatic modalities with the intention of supporting people in the different aspects of their lives."
-        description: "From bodywork, intimacy coaching, embodied counselling, and working on boundaries and consent, every session is unique and tailored to the individual."
-        #TODO add CTA Feels right, doesn't it? Get in touch.
-      mudra:
-        title: Corporate meditations
-        subtitle: "In our corporate programs we support people to feel more alive and intune so they are able to articulate wants and needs, develop a sense of closeness and understand their co workers."
-        description: "We’re in a time that companies are investing in the health and wellbeing of their employees, however, the current offerings miss the mark, fall short, waste time, effort and money. Two Circles provides useful, skills based, practical & accessible tools. Our goal is to support people and enable them to respond in more organic ways in and out the office."
-        #TODO add CTA  Get in touch to find out more about our current offerings.
-      pranayama:
-        title: Workshops and Courses
-        subtitle: "Experience your body and mind connection in a safe, fun and dynamic approach."
-        description: "Our workshops explore embodied curiosity to discover the potential of your senses."
-        #TODO add CTA  Get in touch to find out more about our current offerings.
-#      kriya:
-#        title: Kriyá
-#        subtitle: "Organic activation."
-#        description: "Organic activation by means of water, air and heat."
-#      mantra:
-#        title: Mantra
-#        subtitle: "Sound as instrument for the mind."
-#        description: "Sound vibration and its effects on the internal and external aspects."
-#      yoganidra:
-#        title: Yoganidra
-#        subtitle: "The time to integrate dreaming with being awake."
-#        description: "By lying in a contemplative manner, we experience the state that arises between sleep and wakefulness."
-#      puja:
-#        title: Pújá
-#        subtitle: "Appreciating, offering and giving."
-#        description: "The time to connect with giving and appreciating."
-#      dhyana:
-#        title: Dhyana
-#        subtitle: "Contemplation."
-#        description: "Regaining the contemplative state that brings us to the present, stimulating our awareness."
-    people:
-      entry_georgia: Mindfulness Educator & Embodiment Coach
-      #TODO: ver como poner: Georgia’s client-centred approach educates and supports people to become more aware of their potential and the intersection between work and life. With training in direct experiential learning, Georgia supports people to explore mindfulness and embodiment with real, practical and useful tools. With a background in corporate communications, Georgia has insight into the environment and what is needed to create an offering that allows people to be more intune their bodies to ensure they live optimally in how they move, create, work and feel.
-      #entry_cristina: Santa Cruz - Argentina
-      entry_celeste: Yoga teacher, Certified Rolfing Practitioner and Body-Centred Mindfulness Coach
-      #TODO: ver como poner: Celeste works with individuals and groups to go beyond the surface and gain a deeper understanding of who they are and what they need. Celeste’s aim is to help people work with the body instead of against it, to understand how the physical body, mind and emotions are connected. With 10 years experience in embodied practices she supports her clients to find and create more balance in their lives with a down-to-earth and accessible tools. Celeste approaches sessions with the intention of freeing the body, not ‘fixing it’.
-    contact:
-      menu: Contact
-      title: Contact Us
-      subtitle: "Welcoming the chance to practice in different places around the world, we offer online sessions to support people globally."
-      name: Your Name *
-      email: Your Email *
-      phone: Your Phone
-      message: Your message *
-      submit: Send Message
-      subject: Question from website
-      require_name: Please enter your name.
-      require_email: Please enter your email address.
-      require_message: Please enter a message.
-      submit_ok: Your message has been sent.
-      submit_fail: "Your message could not be sent, try again later or send us an email to <a href='mailto:info@yogestalt.com'>info@yogestalt.com</a>."
-  es:
-    misc:
-      description: "En Yogestalt la integración de prácticas tradicionales como ásanas, pránáyámas, mantras, mudrás, yoganidrá, dhyána y kriyás proporcionan recursos prácticos para la vida cotidiana."
-      close: Cerrar
-    intro:
-      lead_in: "Despejar la mente, tonificar el cuerpo, abrir a la inspiración"
-      title: "Una práctica hacia la integración"
-      btn_more: Leer más
-    yogestalt:
-      menu: Yogestalt
-      title: "¿Qué es Yogestalt?"
-      subtitle: "Confiar en la propia naturaleza orgánica."
-      contact_link: "Sumate<br>a la<br>práctica!"
-    team:
-      menu: Nosotros
-      title: Nosotros
-      subtitle: "Yogestalt, una práctica hacia la integración"
-      footer: "En la práctica las personas reciben elementos para hacerse cargo de su bienestar de forma independiente y por propia motivación. Esto da como resultado satisfacción interior, tranquilidad, vitalidad e interacción social."
-    practice:
-      menu: Práctica
-      title: La práctica
-      subtitle: Nuestras formas de practicar y qué significan para nosotros
-    timeline:
-      traditional_practices:
-        title: Prácticas tradicionales
-        text: "En Yogestalt la integración de prácticas tradicionales como ásanas (posiciones corporales), pránáyámas (expansión de la energía por medio de la respiración), mantras (vocalización), mudrás (gestos hechos con las manos), yoganidrá (la integración a través del sueño), dhyána (concentración, contemplación), kriyás (activación orgánica) y los recursos proporcionados por la Terapia Gestalt ofrecen los elementos prácticos para la vida cotidiana que se pueden hacer en cualquier momento."
-      intention:
-        title: Nuestra intención
-        text: "En Yogestalt hay una permanente intención de retirarse de las ideas preconcebidas para iniciar un camino personal de descubrimiento consciente de las partes opuestas que nos conforman y dan origen a los torbellinos de la conciencia. Yogestalt propone diversas prácticas para facilitar el reconocimiento de dichos opuestos, la tensión que existe entre ellos y profundizar en el contacto. Una vez reconocida dicha tensión,  surge la forma de responder orgánicamente. Esta respuesta orgánica sería similar a cuando sentimos picazón y nos rascamos, o cuando sentimos sed y bebemos agua para satisfacer de forma espontánea, no especulativa, esta necesidad."
-      practice:
-        title: La práctica
-        text: "En la práctica las personas aprenden a hacerse cargo de su bienestar de forma independiente y por propia motivación, de lo que surge una sensación de satisfacción, tranquilidad, vitalidad e interacción social. Se desarrolla un fortalecimiento en la autoestima, en la capacidad para resolver dificultades, en la gestión de la presión interna y externa, y en la administración del estrés físico y emocional."
-      learnings:
-        title: Lo que aprendemos
-        text: "Al practicar se aprende a entrar en contacto con las polaridades. Con el lado izquierdo y el lado derecho, con lo que se acepta y lo que se rechaza. Se aprende a descubrir dónde se siente la tensión corporal y dónde la distensión, dónde abierto y dónde cerrado. A entrar en contacto con emociones como la agresión y la sumisión, la alegría y la tristeza, la crueldad y la compasión, el amor y el miedo. Otros opuestos se descubrirán por medio de la experiencia."
-      present:
-        title: Estando presentes
-        text: "Al estar presente se vivencian estados de profunda concentración y el “darse cuenta” (awareness), en el que surge un descanso en el flujo de los pensamientos que da lugar a un hacer preciso y auténtico en el que se descubre el movimiento y forma de los propios sentimientos y pensamientos. Como aquellos momentos que surgen en el encuentro con otras personas en los que se reaprende a comunicar las necesidades según lo que se manifiesta en la interacción. Se aprende a estar en el aquí y ahora, a conectarse con las polaridades, con las sensaciones, con los sentimientos, con los pensamientos, con la intuición, con los aspectos superficiales y profundos de sí mismo, con lo que se hace, con el cómo se hace, con el dónde se hace, con lo que se siente al hacer lo que se hace, con lo que se necesita y con el hacer lo que se necesita."
-    angas:
-      asana:
-        title: Ásana
-        subtitle: Ubicarse, sentirse, contemplarse y  hacer lo que se necesita.
-        description: "Descubrir la propia posición intentando permanecer presente, sintiéndose y con la intención de llegar a una profunda comodidad. Por medio de la posición se propone un viaje de lo corporal a lo energético, a lo emocional, a lo mental, a lo intuitivo, hacia los aspectos superficiales y profundos."
-      mudra:
-        title: Mudrá
-        subtitle: Los gestos hechos con las manos. 
-        description: "Gestos hechos con las manos que abren a experiencias superficiales y profundas, y modifican los estados de conciencia."
-      pranayama:
-        title: Pránáyáma
-        subtitle: Expandirse y contraerse por medio del respirar.
-        description: "Respirando de diversas maneras la energía se expande."
-      kriya:
-        title: Kriyá
-        subtitle: Activación orgánica.
-        description: "Activación orgánica por medio del agua, del aire y del calor."
-      mantra:
-        title: Mantra
-        subtitle: "El sonido, instrumento para la mente."
-        description: "La vibración del sonido y sus efectos sobre lo interno y externo."
-      yoganidra:
-        title: Yoganidra
-        subtitle: El momento de integrar lo onírico con la vigilia.
-        description: "Al permanecer de manera contemplativa se experimenta ese estado que está entre el estar dormido y el estar despierto."
-      puja:
-        title: Pújá
-        subtitle: Ofrendarse y ofrendar.
-        description: "El momento de conectarse con el darse y con el dar."
-      dhyana:
-        title: Dhyana
-        subtitle: Contemplación.
-        description: "Recuperar el estado contemplativo nos ayuda a estar cuidadosamente presentes para dar lugar al “darse cuenta”(awareness)."
-    people:
-      entry_ricardo: Buenos Aires - Argentina
-      entry_cristina: Santa Cruz - Argentina
-      entry_celeste: Sydney - Australia
-    contact:
-      menu: Contacto
-      title: Contactanos
-      subtitle:
-        - "Haciendo posible practicar en diversos lugares del mundo, personalmente o por videoconferencia."
-        - "Encontrándonos con personas identificadas con la propuesta de Yogestalt."
-      name: Tu Nombre *
-      email: Tu Email *
-      phone: Tu Teléfono
-      message: Tu Mensaje *
-      submit: Enviar
-      subject: Consulta desde la página
-      require_name: Por favor ingresá tu nombre.
-      require_email: Por favor ingresá tu dirección de email.
-      require_message: Por favor ingresá tu mensaje.
-      submit_ok: Tu mensaje fue enviado.
-      submit_fail: "No se pudo enviar tu consulta, intentá nuevamente o escribinos a <a href='mailto:info@yogestalt.com'>info@yogestalt.com</a>."
 
 timeline:
 - item: traditional_practices
@@ -215,11 +20,6 @@ timeline:
   img: approach.jpg
 - item: practice
   img: benefits.jpg
-#- item: learnings
-#  img: 4.jpg
-#- item: present
-#  img: 5.jpg
-
 angas:
 - item: asana
   modal-id: 1
@@ -236,31 +36,6 @@ angas:
   img: workshop.jpg
   thumbnail: workshop-thumbnail.jpg
 
-#- item: kriya
-#  modal-id: 4
-#  img: kriya.jpg
-#  thumbnail: kriya-thumbnail.jpg
-#
-#- item: mantra
-#  modal-id: 5
-#  img: mantra.jpg
-#  thumbnail: mantra-thumbnail.jpg
-#
-#- item: yoganidra
-#  modal-id: 6
-#  img: yoganidra.jpg
-#  thumbnail: yoganidra-thumbnail.jpg
-#
-#- item: puja
-#  modal-id: 7
-#  img: puja.jpg
-#  thumbnail: puja-thumbnail.jpg
-#
-#- item: dhyana
-#  modal-id: 8
-#  img: dhyana.jpg
-#  thumbnail: dhyana-thumbnail.jpg
-
 # Team names, titles and social links
 people:
 - name: Georgia Grace
@@ -272,14 +47,6 @@ people:
       url: http://blog.yogestalt.com
     - title: envelope
       url: mailto:info@georgiagraced.com
-
-#- name: Cristina Di Salvo
-#  pic: cristina
-#  description: entry_cristina
-#  social:
-#    - title: envelope
-#      url: mailto:info@yogestalt.com
-
 - name: Celeste Carrillo
   pic: celeste
   description: entry_celeste

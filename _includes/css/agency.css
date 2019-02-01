@@ -4,19 +4,6 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-.lang-selector {
-    display: block;
-    float: right;
-    padding-left: 70px;
-}
-
-.lang-choice {
-    font-size: 12px;
-}
-
-.en:lang(en), .es:lang(es) {
-    color: #{{ site.data.template.color.secondary }} !important;
-}
 
 body {
     overflow-x: hidden;

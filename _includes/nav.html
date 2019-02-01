@@ -19,27 +19,17 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">{{ site.t[page.lang].yogestalt.menu }}</a>
+                        <a class="page-scroll" href="#about">{{ site.data.text.yogestalt.menu }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#angas">{{ site.t[page.lang].practice.menu }}</a>
+                        <a class="page-scroll" href="#angas">{{ site.data.text.practice.menu }}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">{{site.t[page.lang].team.menu}}</a>
+                        <a class="page-scroll" href="#team">{{site.data.text.team.menu}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">{{ site.t[page.lang].contact.menu }}</a>
+                        <a class="page-scroll" href="#contact">{{ site.data.text.contact.menu }}</a>
                     </li>
-                    <li>
-                        <a href="{{ site.misc.blog_url }}" target="_blank">{{ site.misc.blog_caption }}</a>
-                    </li>
-                </ul>
-                <ul class="nav navbar-nav lang-selector">
-                  {% for lang in site.languages %}
-                  <li>
-                    <a href="{{ site.base_url }}/{{ lang[0]}}/" class="lang-choice {{ lang[0] }}">{{ lang[1] }}</a>
-                  </li>
-                  {% endfor %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->

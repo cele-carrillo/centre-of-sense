@@ -1,6 +1,6 @@
  <!-- Angas Modals -->
  {% for anga in site.angas %}
-    {% assign info = site.t[page.lang].angas[anga.item] %}
+    {% assign info = site.data.text.angas[anga.item] %}
     <div class="angas-modal modal fade" id="anga{{ anga.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -18,7 +18,7 @@
                             <hr class="star-primary">
                             <img src="{{ site.base_url }}/img/angas/{{ anga.img }}" class="img-responsive img-centered" alt="{{ info.subtitle }}">
                             <p class="large">{{ info.description }}</p>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{  site.t[page.lang].misc.close }}</button>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> {{  site.data.text.misc.close }}</button>
                         </div>
                     </div>
                 </div>

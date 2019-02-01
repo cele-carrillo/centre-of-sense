@@ -1,0 +1,69 @@
+
+misc:
+  close: Close
+  description: "The Centre of Sense is a mind and body informed approach to support people in exploring their senses."
+intro:
+  lead_in: "Somatic meditation for the"
+  title: "body and mind"
+  btn_more: Start Making Sense
+yogestalt:
+  menu: About
+  title: "What is the centre of Sense?"
+  subtitle: "The Centre of Sense is a mind and body informed approach to support people in exploring their senses. We offer somatic experiences that draw on the modalities of breath work, sound healing, intuitive touch, mindfulness and movement. For so long we have felt the benefits meditation has on the mind, the Centre of Sense supports the integration of the body in the experience."
+  contact_link: "Get<br>in touch<br>today!"
+team:
+  menu: Meet Us
+  title: Who we are
+  subtitle: "Rediscover your senses"
+  footer: "Our offering is grounded in awareness of people's needs. Our goal is to support our clients and enable them to respond in more organic ways."
+practice:
+  menu: Offerings
+  title: Offerings
+  subtitle: How we can work together
+timeline:
+  traditional_practices:
+    title: How we work
+    text: "At the Centre of Sense, we offer both individual and group experiences, with a focus on self inquiry, interactive exercises, mindful engagements, playful release and expression. Using breath, movement, sound and senses as a means of exploring wants, needs, boundaries and preconceived ideas, to find alignment in what you think, feel and do ffer practical tools for daily life which can be used at any time."
+  intention:
+    title: A client led approach
+    text: "So each experience is tailored and accessible to every person allowing the individual to participate as much or as little as is useful. We understand that everyone will show up differently we respect how they want to engage In Yogestalt there is a permanent intention to withdraw from the preconceived ideas in order to begin a journey of self-discovery, becoming aware of the opposing aspects that make us who we are and which give rise to the turmoil of our  consciousness. Yogestalt proposes various ways of practicing so as to identify these opposites, as well as the tension between. Once this tension becomes obvious, how to respond to it appears organically. This organic response would be similar to when it itches and we scratch, or when we feel thirsty and drink water, so as to satisfy our need in a spontaneous and not speculative manner."
+  practice:
+    title: Benefits
+    text: "Even though sessions are different for everyone, some of the benefits usually reported include: mental clarity and increased self-awareness, stress and tension relief, sense of connection and groundedness, increased motivation and enthusiasm, energy and vitality, improved mood, time invested in self care, opportunity & freedom to “be”"
+angas:
+  asana:
+    title: In person and on-line Sessions
+    subtitle: "We offer a variety of somatic modalities with the intention of supporting people in the different aspects of their lives."
+    description: "From bodywork, intimacy coaching, embodied counselling, and working on boundaries and consent, every session is unique and tailored to the individual."
+    #TODO add CTA Feels right, doesn't it? Get in touch.
+  mudra:
+    title: Corporate meditations
+    subtitle: "In our corporate programs we support people to feel more alive and intune so they are able to articulate wants and needs, develop a sense of closeness and understand their co workers."
+    description: "We’re in a time that companies are investing in the health and wellbeing of their employees, however, the current offerings miss the mark, fall short, waste time, effort and money. Two Circles provides useful, skills based, practical & accessible tools. Our goal is to support people and enable them to respond in more organic ways in and out the office."
+    #TODO add CTA  Get in touch to find out more about our current offerings.
+  pranayama:
+    title: Workshops and Courses
+    subtitle: "Experience your body and mind connection in a safe, fun and dynamic approach."
+    description: "Our workshops explore embodied curiosity to discover the potential of your senses."
+    #TODO add CTA  Get in touch to find out more about our current offerings.
+people:
+  entry_georgia: Mindfulness Educator & Embodiment Coach
+  #TODO: ver como poner: Georgia’s client-centred approach educates and supports people to become more aware of their potential and the intersection between work and life. With training in direct experiential learning, Georgia supports people to explore mindfulness and embodiment with real, practical and useful tools. With a background in corporate communications, Georgia has insight into the environment and what is needed to create an offering that allows people to be more intune their bodies to ensure they live optimally in how they move, create, work and feel.
+  #entry_cristina: Santa Cruz - Argentina
+  entry_celeste: Yoga teacher, Certified Rolfing Practitioner and Body-Centred Mindfulness Coach
+  #TODO: ver como poner: Celeste works with individuals and groups to go beyond the surface and gain a deeper understanding of who they are and what they need. Celeste’s aim is to help people work with the body instead of against it, to understand how the physical body, mind and emotions are connected. With 10 years experience in embodied practices she supports her clients to find and create more balance in their lives with a down-to-earth and accessible tools. Celeste approaches sessions with the intention of freeing the body, not ‘fixing it’.
+contact:
+  menu: Contact
+  title: Contact Us
+  subtitle: "Welcoming the chance to practice in different places around the world, we offer online sessions to support people globally."
+  name: Your Name *
+  email: Your Email *
+  phone: Your Phone
+  message: Your message *
+  submit: Send Message
+  subject: Question from website
+  require_name: Please enter your name.
+  require_email: Please enter your email address.
+  require_message: Please enter a message.
+  submit_ok: Your message has been sent.
+  submit_fail: "Your message could not be sent, try again later or send us an email to <a href='mailto:info@yogestalt.com'>info@yogestalt.com</a>."

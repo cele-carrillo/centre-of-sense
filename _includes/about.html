@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.t[page.lang].yogestalt.title }}</h2>
-                    <h3 class="section-subheading text-muted">{{ site.t[page.lang].yogestalt.subtitle }}</h3>
+                    <h2 class="section-heading">{{ site.data.text.yogestalt.title }}</h2>
+                    <h3 class="section-subheading text-muted">{{ site.data.text.yogestalt.subtitle }}</h3>
                 </div>
             </div>
             <div class="row">
@@ -17,17 +17,17 @@
                                 </div>
                                 <div class="timeline-panel">
                                     <div class="timeline-heading">
-                                        <h4 class="subheading">{{ site.t[page.lang].timeline[entry.item].title }}</h4>
+                                        <h4 class="subheading">{{ site.data.text.timeline[entry.item].title }}</h4>
                                     </div>
                                     <div class="timeline-body">
-                                        <p class="text-muted">{{ site.t[page.lang].timeline[entry.item].text }}</p>
+                                        <p class="text-muted">{{ site.data.text.timeline[entry.item].text }}</p>
                                     </div>
                                 </div>
                             </li>
                         {% endfor %}
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4><a href="#contact" class="page-scroll timeline-link">{{ site.t[page.lang].yogestalt.contact_link}}</a></h4>
+                                <h4><a href="#contact" class="page-scroll timeline-link">{{ site.data.text.yogestalt.contact_link}}</a></h4>
                             </div>
                         </li>
                     </ul>
