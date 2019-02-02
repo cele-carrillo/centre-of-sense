@@ -62,6 +62,14 @@ h6 {
     font-weight: 700;
 }
 
+a.close-modal {
+    color: grey;
+}
+
+a.close-modal:hover {
+    color: black;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -171,6 +179,14 @@ fieldset[disabled] .btn-xl.active {
 .btn-xl .badge {
     color: #{{ site.data.template.color.primary }};
     background-color: #fff;
+}
+
+
+.btn-xl-secondary {
+    text-transform: none;
+    font-size: 18px;
+    font-weight: lighter;
+    white-space: normal;
 }
 
 .navbar-default {
