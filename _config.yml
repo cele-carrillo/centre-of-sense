@@ -1,37 +1,32 @@
 url: http://www.centreofsense.com
 baseurl: ""
 
-# Default language
-lang: en
-
-languages:
-  en: English
-
 # Site settings
-full_title: "Centre of Sense: A somatic meditation"
-title: Centre of Sense #TODO se puede poner que diga algo mas en la tab del browser?
+title: Centre of Sense
+tab_subtitle: A somatic meditation
+
 email: info@yogestalt.com #TODO change
 
-
 timeline:
-- item: traditional_practices
+- item: how
   img: how.jpg
-- item: intention
+- item: approach
   img: approach.jpg
-- item: practice
+- item: benefits
   img: benefits.jpg
-angas:
-- item: asana
+
+offers:
+- item: in-person
   modal-id: 1
   img: session.jpg
   thumbnail: session-thumbnail.jpg
 
-- item: mudra
+- item: corporate
   modal-id: 2
   img: corporate.jpg
   thumbnail: corporate-thumbnail.jpg
 
-- item: pranayama
+- item: workshops
   modal-id: 3
   img: workshop.jpg
   thumbnail: workshop-thumbnail.jpg
@@ -43,8 +38,7 @@ people:
   description: entry_georgia
   social:
     - title: globe
-      #TODO cambiar url georgia
-      url: http://blog.yogestalt.com
+      url: https://www.georgiagraced.com
     - title: envelope
       url: mailto:info@georgiagraced.com
 - name: Celeste Carrillo
