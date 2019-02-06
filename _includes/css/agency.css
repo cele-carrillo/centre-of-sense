@@ -62,11 +62,21 @@ h6 {
     font-weight: 700;
 }
 
-a.close-modal {
-    color: grey;
+div.close-modal {
+    position:absolute;
+    top:0;
+    right:0;
+    margin-right: 20px;
+    z-index: 100;
 }
 
-a.close-modal:hover {
+.close-modal > a {
+    color: grey;
+    float: right;
+    margin-right: 20px;
+}
+
+.close-modal > a:hover {
     color: black;
 }
 
@@ -761,7 +771,7 @@ footer {
     text-align: center;
 }
 
-footer img.yogestalt-logo {
+footer img.logo {
     max-width: 50%;
     height: auto;
     
@@ -805,8 +815,8 @@ ul.social-buttons li a:active {
 
 .offers-modal .modal-content {
     padding: 20px 0;
-    height: 90vh;
-    width: 90%;
+    height: 80vh;
+    width: 80%;
     border: 0;
     border-radius: 0;
     text-align: center;
@@ -815,7 +825,7 @@ ul.social-buttons li a:active {
     box-shadow: none;
     position: absolute;
     top: 50%;
-    left: 5%;
+    left: 10%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
