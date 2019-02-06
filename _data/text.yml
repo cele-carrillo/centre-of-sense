@@ -81,4 +81,4 @@ contact:
   require_email: Please enter your email address.
   require_message: Please enter a message.
   submit_ok: Your message has been sent.
-  submit_fail: "Your message could not be sent, try again later or send us an email to <a href='mailto:info@yogestalt.com'>info@yogestalt.com</a>."
+  submit_fail: "Your message could not be sent, try again later or send us an email to <a href='mailto:hello@centreofsense.com'>hello@centreofsense.com</a>."

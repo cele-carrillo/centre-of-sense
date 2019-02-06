@@ -5,7 +5,7 @@ baseurl: ""
 title: Centre of Sense
 tab_subtitle: A somatic meditation
 
-email: info@yogestalt.com #TODO change
+email: hello@centreofsense.com
 
 timeline:
 - item: how
@@ -40,7 +40,7 @@ people:
     - title: globe
       url: https://www.georgiagraced.com
     - title: envelope
-      url: mailto:info@georgiagraced.com
+      url: mailto:georgia@centreofsense.com
 - name: Celeste Carrillo
   pic: celeste
   description: entry_celeste
@@ -48,7 +48,7 @@ people:
     - title: globe
       url: http://www.somaticbalance.com.au/
     - title: envelope
-      url: mailto:cele@somaticbalance.com.au
+      url: mailto:cele@centreofsense.com
 
 # Build settings
 markdown: kramdown
