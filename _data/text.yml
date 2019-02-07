@@ -65,5 +65,5 @@ contact:
   require_name: Please enter your name.
   require_email: Please enter your email address.
   require_message: Please enter a message.
-  submit_ok: Your message has been sent.
-  submit_fail: "Your message could not be sent, try again later or send us an email to <a href='mailto:hello@centreofsense.com'>hello@centreofsense.com</a>."
+  submit_ok: see agency.js #Thanks for your message, we'll be in touch soon!
+  submit_fail: see agency.js #Your message could not be sent, try again later or send us an email to <a href='mailto:hello@centreofsense.com'>hello@centreofsense.com</a>.
