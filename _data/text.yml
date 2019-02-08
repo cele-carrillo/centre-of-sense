@@ -1,21 +1,27 @@
 
 misc:
   close: Close
-  description: "The Centre of Sense is a mind and body informed approach to support people in exploring their senses."
+  description: The Centre of Sense is a mind and body informed approach to support people in exploring their senses.
 intro:
-  lead_in: "Somatic meditation for the"
-  title: "body and mind"
+  lead_in: Somatic meditation for the
+  title: body and mind
   btn_more: Start Making Sense
 about:
   menu: About
-  title: "What is the Centre of Sense?"
-  subtitle: "The Centre of Sense is a mind and body informed approach to support people in exploring their senses. We offer somatic experiences that draw on the modalities of breath work, sound healing, intuitive touch, mindfulness and movement. For so long we have felt the benefits meditation has on the mind, the Centre of Sense supports the integration of the body in the experience."
+  title: What is the Centre of Sense?
+  subtitle: >
+    Our mind and body informed approach supports people in exploring their senses to feel more fulfilled, connected and
+    balanced in all aspects of life. We offer somatic experiences that draw on the modalities of breath work,
+    sound healing, intuitive touch, mindfulness and movement. For so long we have felt the benefits meditation has on
+    the mind, the Centre of Sense focuses on the integration of the body in the experience.
   contact_link: "Get<br>in touch<br>today!"
 team:
   menu: Meet Us
   title: Who we are
-  subtitle: "Our offering is grounded in awareness of people's needs. Our goal is to support our clients and enable them to respond in more organic ways."
-  footer: "Rediscover your senses. Reconnect to your body. Come back home."
+  subtitle: >
+    Our offering is grounded in awareness of people's needs. Our goal is to support our clients and enable them to
+    respond in more organic ways.
+  footer: Rediscover your senses. Reconnect to your body. Come back home.
 offerings:
   menu: Offerings
   title: Offerings
@@ -23,29 +29,53 @@ offerings:
 timeline:
   how:
     title: How we work
-    text: "At the Centre of Sense, we offer both individual and group experiences, with a focus on self inquiry, interactive exercises, mindful engagements, playful release and expression. Using breath, movement, sound and senses as a means of exploring wants, needs, boundaries and preconceived ideas, to find alignment in what you think, feel and do."
+    text: >
+      The Centre of Sense offers individual and group experiences, with a focus on self inquiry, interactive exercises,
+      mindful engagements, playful release and expression. Using breath, movement, sound and senses as a means of
+      exploring wants, needs, boundaries and preconceived ideas, to find alignment in what you think, feel and do.
   approach:
     title: A client led approach
-    text: "So each experience is tailored and accessible to every person allowing the individual to participate as much or as little as is useful. We understand that everyone will show up differently we respect how they want to engage."
+    text: >
+      Each experience is tailored and accessible to the individual allowing them to participate as much or as little as
+      is useful. We understand that everyone will show up differently we respect how they want to engage.
   benefits:
     title: Benefits
-    text: "Even though sessions are different for everyone, some of the benefits usually reported include: mental clarity and increased self-awareness, stress and tension relief, sense of connection and groundedness, increased motivation and enthusiasm, energy and vitality, improved mood, time invested in self care, opportunity & freedom to “be”."
+    text: >
+      Some of the benefits commonly reported include: mental clarity and increased self-awareness, stress and tension
+      relief, sense of connection and groundedness, increased motivation and enthusiasm, energy and vitality, improved
+      mood, empowered to change habits around thinking, feeling and working, opportunity & freedom to “be”.
 offers:
   in-person:
-    title: In Person and On-line Sessions
-    subtitle: "Empowering each person, with a focus on increasing body awareness, physical comfort, and connection to self."
-    description: "We offer a variety of somatic modalities with the intention of supporting people in the different aspects of their lives. From bodywork, intimacy coaching, embodied counselling, and working on boundaries and consent, every session is unique and tailored to the individual."
+    title: In Person and Online Sessions
+    subtitle: >
+      Empowering the individual person, with a focus on increasing body awareness, physical comfort, and connection to
+      self.
+    description: >
+      We offer a variety of somatic modalities with the intention of supporting people in the different aspects of
+      their lives. From bodywork, intimacy coaching, embodied counselling, and working on boundaries and consent,
+      every session is unique and tailored to the individual.
     cta: Feels right, doesn't it? Get in touch.
   corporate:
     title: Corporate Meditations
-    subtitle: "Providing support for wider team development focusing on shared experiences."
-    description: "In our corporate programs we support people to feel more alive and intune so they are able to articulate wants and needs, develop a sense of closeness and understand their co workers. We’re in a time that companies are investing in the health and wellbeing of their employees, however, the current offerings miss the mark, fall short, waste time, effort and money. The Centre of Sense provides useful, skills based, practical & accessible tools. Our goal is to support people and enable them to respond in more organic ways in and out the office.
-    The sessions are informed to address: physical tension, stress, mood disorders, disconnection to body and others, sense of isolation, lack of meaning and purpose, enthusiasm, motivation and drive "
+    subtitle: Providing support for wider team development focusing on shared experiences.
+    description: >
+      Our corporate programs allow people to feel more alive and intune so they are able to articulate wants and needs,
+      develop a sense of closeness and understand how effectively  collaborate with their co-workers. Although companies
+      are investing  in the health and wellbeing of their employees, the current offerings miss the mark, fall short,
+      waste time, effort and money because they fail to have focused outcomes and experienced practitioners. The Centre
+      of Sense provides useful, skills based, practical & accessible tools. Our goal is to support people and enable
+      them to respond in more organic ways in and out the office. The sessions are informed to address: physical
+      tension, stress, mood disorders, disconnection to body and others, sense of isolation, lack of meaning and
+      purpose, enthusiasm, motivation and drive.
     cta: We can tailor a program that meets your needs. Get in touch.
   workshops:
     title: Workshops and Courses
-    subtitle: "Experience your body and mind connection in a safe, fun and dynamic approach."
-    description: "Our workshops explore embodied curiosity to discover the potential of your senses. Some of the topics we work with are: expression through sound, embodied mediation, awakening the senses, understanding the connection between body, mind and emotion, how to set boundaries & negotiate consent, how disagreeing effectively improves communication, confidence and trust, creativity as an embodied experience"
+    subtitle: Experience your body and mind connection with a safe, fun and dynamic approach.
+    description: >
+      Our workshops explore embodied curiosity to discover the potential of your senses. Some of the topics we work with
+      are: expression through sound, embodied mediation, awakening the senses, understanding the connection between
+      body, mind and emotion, how to set boundaries & negotiate consent, how disagreeing effectively improves
+      communication, confidence and trust, creativity as an embodied experience.
     cta: Get in touch to find out more about our current offerings.
 people:
   entry_georgia: Mindfulness Educator & Embodiment Coach
@@ -55,7 +85,9 @@ people:
 contact:
   menu: Contact
   title: Contact Us
-  subtitle: "Welcoming the chance to practice in different places around the world, we offer in-person and online sessions to support people globally."
+  subtitle: >
+    Welcoming the chance to practice in different places around the world, we offer in-person and online sessions to
+    support people globally.
   name: Your Name *
   email: Your Email *
   phone: Your Phone
