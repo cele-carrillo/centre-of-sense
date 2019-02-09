@@ -370,6 +370,7 @@ section h3.section-subheading {
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 18px;
+    line-height: 26px;
     font-style: italic;
     font-weight: 400;
 }
@@ -767,11 +768,12 @@ section#contact .text-danger {
 }
 
 footer {
-    padding: 25px 0;
+    /*padding: 25px 0;*/
     text-align: center;
 }
 
 footer img.logo {
+    padding: 25px;
     max-width: 50%;
     height: auto;
     
