@@ -48,23 +48,22 @@ offers:
   in-person:
     title: In Person and Online Sessions
     subtitle: >
-      Empowering the individual person, with a focus on increasing body awareness, physical comfort, and connection to
-      self.
+      Empowering the individual, with a focus on increasing body awareness, physical comfort and connection to self.
     description: >
       We offer a variety of somatic modalities with the intention of supporting people in the different aspects of
       their lives. From bodywork, intimacy coaching, embodied counselling, and working on boundaries and consent,
       every session is unique and tailored to the individual.
     cta: Feels right, doesn't it? Get in touch.
   corporate:
-    title: Corporate Meditations
+    title: Company Meditations
     subtitle: Providing support for wider team development focusing on shared experiences.
     description: >
       Our corporate programs allow people to feel more alive and intune so they are able to articulate wants and needs,
-      develop a sense of closeness and understand how effectively  collaborate with their co-workers. Although companies
-      are investing  in the health and wellbeing of their employees, the current offerings miss the mark, fall short,
-      waste time, effort and money because they fail to have focused outcomes and experienced practitioners. The Centre
-      of Sense provides useful, skills based, practical & accessible tools. Our goal is to support people and enable
-      them to respond in more organic ways in and out the office. The sessions are informed to address: physical
+      develop a sense of closeness and understand how to effectively collaborate with their co-workers. Although
+      companies are investing  in the health and wellbeing of their employees, the current offerings miss the mark, fall
+      short, waste time, effort and money because they fail to have focused outcomes and experienced practitioners. The
+      Centre of Sense provides useful, skills based, practical & accessible tools. Our goal is to support people and
+      enable them to respond in more organic ways in and out the office. The sessions are informed to address: physical
       tension, stress, mood disorders, disconnection to body and others, sense of isolation, lack of meaning and
       purpose, enthusiasm, motivation and drive.
     cta: We can tailor a program that meets your needs. Get in touch.
@@ -78,7 +77,7 @@ offers:
       communication, confidence and trust, creativity as an embodied experience.
     cta: Get in touch to find out more about our current offerings.
 people:
-  entry_georgia: Mindfulness Educator & Embodiment Coach
+  entry_georgia: Certified Somatic Educator and Mindfulness Coach
   #TODO: ver como poner: Georgia’s client-centred approach educates and supports people to become more aware of their potential and the intersection between work and life. With training in direct experiential learning, Georgia supports people to explore mindfulness and embodiment with real, practical and useful tools. With a background in corporate communications, Georgia has insight into the environment and what is needed to create an offering that allows people to be more intune their bodies to ensure they live optimally in how they move, create, work and feel.
   entry_celeste: Yoga teacher, Certified Rolfing Practitioner and Body-Centred Mindfulness Coach
   #TODO: ver como poner: Celeste works with individuals and groups to go beyond the surface and gain a deeper understanding of who they are and what they need. Celeste’s aim is to help people work with the body instead of against it, to understand how the physical body, mind and emotions are connected. With 10 years experience in embodied practices she supports her clients to find and create more balance in their lives with a down-to-earth and accessible tools. Celeste approaches sessions with the intention of freeing the body, not ‘fixing it’.
