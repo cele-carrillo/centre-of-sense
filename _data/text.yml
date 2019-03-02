@@ -49,7 +49,8 @@ offers:
     title: In Person and Online Sessions
     subtitle: >
       Empowering the individual, with a focus on increasing body awareness, physical comfort and connection to self.
-    description: >
+    description:
+    - >
       We offer a variety of somatic modalities with the intention of supporting people in the different aspects of
       their lives. From bodywork, intimacy coaching, embodied counselling, and working on boundaries and consent,
       every session is unique and tailored to the individual.
@@ -57,20 +58,27 @@ offers:
   corporate:
     title: Company Meditations
     subtitle: Providing support for wider team development focusing on shared experiences.
-    description: >
+    description:
+    - >
       Our corporate programs allow people to feel more alive and intune so they are able to articulate wants and needs,
-      develop a sense of closeness and understand how to effectively collaborate with their co-workers. Although
-      companies are investing  in the health and wellbeing of their employees, the current offerings miss the mark, fall
-      short, waste time, effort and money because they fail to have focused outcomes and experienced practitioners. The
-      Centre of Sense provides useful, skills based, practical & accessible tools. Our goal is to support people and
-      enable them to respond in more organic ways in and out the office. The sessions are informed to address: physical
+      develop a sense of closeness and understand how to effectively collaborate with their co-workers.
+    - >
+      Although companies are investing  in the health and wellbeing of their employees, the current offerings miss the
+      mark, fall short, waste time, effort and money because they fail to have focused outcomes and experienced
+      practitioners.
+    - >
+      The Centre of Sense provides useful, skills based, practical & accessible tools. Our goal is to support people and
+      enable them to respond in more organic ways in and out the office.
+    - >
+      The sessions are informed to address: physical
       tension, stress, mood disorders, disconnection to body and others, sense of isolation, lack of meaning and
       purpose, enthusiasm, motivation and drive.
     cta: We can tailor a program that meets your needs. Get in touch.
   workshops:
     title: Workshops and Courses
     subtitle: Experience your body and mind connection with a safe, fun and dynamic approach.
-    description: >
+    description:
+    - >
       Our workshops explore embodied curiosity to discover the potential of your senses. Some of the topics we work with
       are: expression through sound, embodied mediation, awakening the senses, understanding the connection between
       body, mind and emotion, how to set boundaries & negotiate consent, how disagreeing effectively improves

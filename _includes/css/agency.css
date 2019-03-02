@@ -62,24 +62,6 @@ h6 {
     font-weight: 700;
 }
 
-div.close-modal {
-    position:absolute;
-    top:0;
-    right:0;
-    margin-right: 20px;
-    z-index: 100;
-}
-
-.close-modal > a {
-    color: grey;
-    float: right;
-    margin-right: 20px;
-}
-
-.close-modal > a:hover {
-    color: black;
-}
-
 .img-centered {
     margin: 0 auto;
 }
@@ -193,6 +175,7 @@ fieldset[disabled] .btn-xl.active {
 
 
 .btn-xl-secondary {
+    padding: 10px 20px;
     text-transform: none;
     font-size: 18px;
     font-weight: lighter;
@@ -815,57 +798,6 @@ ul.social-buttons li a:active {
     outline: 0;
 }
 
-.offers-modal .modal-content {
-    padding: 20px 0;
-    height: 80vh;
-    width: 80%;
-    border: 0;
-    border-radius: 0;
-    text-align: center;
-    background-clip: border-box;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    overflow-y: scroll;
-}
-
-@media(max-width:1200px) {
-    .offers-modal .modal-content {
-        left: 0%;
-        width: 100%;
-    }
-}
-
-.offers-modal .modal-content h2 {
-    margin-bottom: 15px;
-    font-size: 3em;
-}
-
-.offers-modal .modal-content p {
-    margin-bottom: 30px;
-}
-
-.offers-modal .modal-content p.item-intro {
-    margin: 20px 0 30px;
-    font-family: {{ site.data.template.font.secondary }};
-    font-size: 16px;
-    font-style: italic;
-}
-
-.offers-modal .modal-content ul.list-inline {
-    margin-top: 0;
-    margin-bottom: 30px;
-}
-
-.offers-modal .modal-content img {
-    margin-bottom: 30px;
-}
-
 ::-moz-selection {
     text-shadow: none;
     background: #{{ site.data.template.color.primary }};
@@ -892,4 +824,112 @@ body {
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
     border-color: #fff;
+}
+
+.modal__grid{
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 2px;
+    background-color: white;
+    display: block;
+    position: fixed;
+}
+
+.modal__left_img {
+    background-size: auto;
+    float : left;
+    clear : none;
+    height : 100%;
+    width : 20%;
+}
+
+{% for offer in site.offers %}
+.img-offer-{{ offer.modal-id }} {
+    background-size: cover;
+    background-image: url('{{ site.baseurl }}/img/offers/{{ offer.img }}');
+}
+{% endfor %}
+
+
+.modal__header{
+    text-align: center;
+    padding: 15px 10px 0 15px;
+    float : left;
+    clear : none;
+    width : 80%;
+}
+
+.modal__content {
+    padding: 0 10px 0 15px;
+    float : left;
+    clear : none;
+    height : 70%;
+    width : 80%;
+    overflow-y: auto;
+}
+
+.modal__footer {
+    padding-left: 2px;
+    float : left;
+    clear : none;
+    width : 80%;
+    height: 10%;
+}
+
+.modal__close {
+    width: 10%;
+    float: right;
+    text-align: right;
+}
+
+.modal__close > a {
+    font-size: 19px;
+    color: grey;
+    float: right;
+}
+
+.modal__close > a:hover {
+    color: black;
+}
+
+.modal__cta {
+    font-size: 14px;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+}
+
+
+@media(min-width:768px) {
+    .modal__content {
+        padding: 10px 30px 10px 30px;
+    }
+
+    .modal__grid{
+        height: 90vh;
+        width: 90%;
+        top: 50%;
+        left: 5%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+@media(min-width:992px) {
+    .modal__content {
+        padding: 10px 30px 10px 30px;
+    }
+
+    .modal__grid{
+        height: 70vh;
+        width: 70%;
+        top: 50%;
+        left: 15%;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
 }

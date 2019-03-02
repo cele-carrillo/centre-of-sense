@@ -17,17 +17,17 @@ timeline:
 
 offers:
 - item: in-person
-  modal-id: 1
+  modal-id: in-person
   img: session.jpg
   thumbnail: session-thumbnail.jpg
 
 - item: corporate
-  modal-id: 2
+  modal-id: corporate
   img: corporate.jpg
   thumbnail: corporate-thumbnail.jpg
 
 - item: workshops
-  modal-id: 3
+  modal-id: workshops
   img: workshop.jpg
   thumbnail: workshop-thumbnail.jpg
 
