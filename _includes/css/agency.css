@@ -865,8 +865,7 @@ body {
     padding: 0 10px 0 15px;
     float : left;
     clear : none;
-    height : 70%;
-    max-height: 600px;
+    height : 65%;
     width : 80%;
     overflow-y: auto;
 }
@@ -902,8 +901,14 @@ body {
     bottom: 0px;
 }
 
+.modal__header h4 {
+    font-size: 13px;
+}
 
 @media(min-width:768px) {
+    .modal__header h4 {
+        font-size: 19px;
+    }
     .modal__content {
         padding: 10px 30px 10px 30px;
     }
