@@ -3,25 +3,27 @@
     {% assign info = site.data.text.offers[offer.item] %}
     <div class="modal fade" id="offer-{{ offer.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal__grid">
-            <div class="modal__left_img img-offer-{{ offer.modal-id }}"></div>
-            <div class="modal__header">
-                <div class="modal__close">
-                    <a data-dismiss="modal"><h4 class="fa fa-close"></h4></a>
+            <div class="modal__left img-offer-{{ offer.modal-id }}"></div>
+            <div class="modal__right">
+                <div class="modal__header">
+                    <div class="modal__close">
+                        <a data-dismiss="modal"><h4 class="fa fa-close"></h4></a>
+                    </div>
+                    <div>
+                        <h4 class="text-muted">{{ info.subtitle }}</h4>
+                        <hr>
+                    </div>
                 </div>
-                <div>
-                    <h4 class="text-muted">{{ info.subtitle }}</h4>
-                    <hr>
-                </div>
-            </div>
-            <div class="modal__content">
-                {% for entry in info.description %}
+                <div class="modal__content">
+                    {% for entry in info.description %}
                     <p class="large">{{ entry }}</p>
-                {% endfor %}
-            </div>
-            <div class="modal__footer">
-                <a class="btn btn-xl btn-xl-secondary page-scroll modal__cta" href="#contact" data-dismiss="modal">
-                    <i class="fa fa-heart"></i> {{ info.cta }}
-                </a>
+                    {% endfor %}
+                </div>
+                <div class="modal__footer">
+                    <a class="btn btn-xl btn-xl-secondary page-scroll modal__cta" href="#contact" data-dismiss="modal">
+                        <i class="fa fa-heart"></i> {{ info.cta }}
+                    </a>
+                </div>
             </div>
         </div>
     </div>
