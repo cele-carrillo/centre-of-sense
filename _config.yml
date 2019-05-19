@@ -50,6 +50,13 @@ people:
     - title: envelope
       url: mailto:cele@centreofsense.com
 
+social:
+  - title: facebook
+    url: https://www.facebook.com/CentreOfSense
+  - title: linkedin
+    url: https://www.linkedin.com/company/centre-of-sense/
+
+
 # Build settings
 markdown: kramdown
 permalink: pretty
