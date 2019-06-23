@@ -132,8 +132,9 @@ offers:
       their lives. From bodywork, intimacy coaching, embodied counselling, and working on boundaries and consent,
       every session is unique and tailored to the individual.
     cta: Feels right, doesn't it? Get in touch.
+
   corporate:
-    title: Company Meditations
+    title: Helping Companies and Organizations
     subtitle: Providing support for wider team development focusing on shared experiences
     description:
     - >
@@ -150,7 +151,11 @@ offers:
       The sessions are informed to address: physical
       tension, stress, mood disorders, disconnection to body and others, sense of isolation, lack of meaning and
       purpose, enthusiasm, motivation and drive.
+    - >
+      Read more about our <a href="/res/company_offering.pdf" download="Centre Of Sense - Company Offering.pdf">Company
+      Offering</a>.
     cta: We can tailor a program that meets your needs. Get in touch.
+
   workshops:
     title: Workshops and Courses
     subtitle: Experience your body and mind connection with a safe, fun and dynamic approach
@@ -161,10 +166,11 @@ offers:
       body, mind and emotion, how to set boundaries & negotiate consent, how disagreeing effectively improves
       communication, confidence and trust, creativity as an embodied experience.
     cta: Get in touch to find out more about our current offerings.
+
 people:
-  entry_georgia: Certified Somatic Educator, Embodied Therapy Practitioner, Relationship Coach
+  entry_georgia: Certified Somatic Educator, Embodied Therapy Practitioner and Relationship Coach
   #TODO: ver como poner: Georgia’s client-centred approach educates and supports people to become more aware of their potential and the intersection between work and life. With training in direct experiential learning, Georgia supports people to explore mindfulness and embodiment with real, practical and useful tools. With a background in corporate communications, Georgia has insight into the environment and what is needed to create an offering that allows people to be more intune their bodies to ensure they live optimally in how they move, create, work and feel.
-  entry_celeste: Certified Rolfing Practitioner, Embodied Counselling Practitioner, Mindfulness Coach
+  entry_celeste: Certified Rolfing Practitioner, Embodied Counselling Practitioner and Mindfulness Coach
   #TODO: ver como poner: Celeste works with individuals and groups to go beyond the surface and gain a deeper understanding of who they are and what they need. Celeste’s aim is to help people work with the body instead of against it, to understand how the physical body, mind and emotions are connected. With 10 years experience in embodied practices she supports her clients to find and create more balance in their lives with a down-to-earth and accessible tools. Celeste approaches sessions with the intention of freeing the body, not ‘fixing it’.
 contact:
   menu: Contact
