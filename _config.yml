@@ -16,6 +16,21 @@ timeline:
   img: benefits.jpg
 
 offers:
+- item: rolfing
+  modal-id: rolfing
+  img: rolfing.jpg
+  thumbnail: rolfing-thumbnail.jpg
+
+- item: embodied-counselling
+  modal-id: embodied-counselling
+  img: embodied-counselling.jpg
+  thumbnail: embodied-counselling-thumbnail.jpg
+
+- item: sex-intimacy-coaching
+  modal-id: sex-intimacy-coaching
+  img: sex-intimacy-coaching.jpg
+  thumbnail: sex-intimacy-coaching-thumbnail.jpg
+
 - item: in-person
   modal-id: in-person
   img: session.jpg

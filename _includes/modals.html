@@ -6,12 +6,13 @@
             <div class="modal__left img-offer-{{ offer.modal-id }}"></div>
             <div class="modal__right">
                 <div class="modal__header">
-                    <div class="modal__close">
-                        <a data-dismiss="modal"><h4 class="fa fa-close"></h4></a>
-                    </div>
-                    <div>
+                    <div class="modal_header_title">
+                        <h5>{{ info.title }}</h5>
                         <h4 class="text-muted">{{ info.subtitle }}</h4>
                         <hr>
+                    </div>
+                    <div class="modal_header_close">
+                        <a data-dismiss="modal"><h4 class="fa fa-close"></h4></a>
                     </div>
                 </div>
                 <div class="modal__content">
@@ -20,9 +21,15 @@
                     {% endfor %}
                 </div>
                 <div class="modal__footer">
+                    {% if info.cta-link %}
+                    <a class="btn btn-xl btn-xl-secondary modal__cta" href="{{ info.cta-link }}" target="_blank">
+                        <i class="fa fa-heart"></i> {{ info.cta }}
+                    </a>
+                    {% else %}
                     <a class="btn btn-xl btn-xl-secondary page-scroll modal__cta" href="#contact" data-dismiss="modal">
                         <i class="fa fa-heart"></i> {{ info.cta }}
                     </a>
+                    {% endif %}
                 </div>
             </div>
         </div>
