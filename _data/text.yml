@@ -24,8 +24,8 @@ team:
   footer: Rediscover your senses. Reconnect to your body. Come back home.
   join: Are you interested in joining our team? Reach us at
 offerings:
-  menu: Offerings
-  title: Offerings
+  menu: Modalities
+  title: Modalities & Offerings
   subtitle: How we can work together
 timeline:
   how:
@@ -134,7 +134,7 @@ offers:
     cta: Feels right, doesn't it? Get in touch.
 
   corporate:
-    title: Helping Companies and Organizations
+    title: Helping Companies and Organisations
     subtitle: Providing support for wider team development focusing on shared experiences
     description:
     - >
