@@ -1,29 +1,29 @@
 <!-- Offers Grid Section -->
-    <section id="offers" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">{{ site.data.text.offerings.title }}</h2>
-                    <h3 class="section-subheading text-muted">{{ site.data.text.offerings.subtitle }}</h3>
-                </div>
-            </div>
-            <div class="row">
-            {% for offer in site.offers %}
-                <div class="col-md-4 col-sm-6 offers-item">
-                    <a href="#offer-{{ offer.modal-id }}" class="offers-link" data-toggle="modal">
-                        <div class="offers-hover">
-                            <div class="offers-hover-content">
-                                <i class="fa fa-eye fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="{{ site.base_url }}/img/offers/{{ offer.thumbnail }}" class="img-responsive img-centered" alt="">
-                    </a>
-                    <div class="offers-caption">
-                        <h4>{{ site.data.text.offers[offer.item].title }}</h4>
-                        <p class="text-muted">{{ site.data.text.offers[offer.item].subtitle }}</p>
-                    </div>
-                </div>
-            {% endfor %}
+<section id="offers" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">{{ site.data.text.offerings.title }}</h2>
+                <h3 class="section-subheading text-muted">{{ site.data.text.offerings.subtitle }}</h3>
             </div>
         </div>
-    </section>
+        <div class="row">
+        {% for offer in site.offers %}
+            <div class="col-md-4 col-sm-6 offers-item">
+                <a href="#offer-{{ offer.modal-id }}" class="offers-link" data-toggle="modal">
+                    <div class="offers-hover">
+                        <div class="offers-hover-content">
+                            <i class="fa fa-eye fa-3x"></i>
+                        </div>
+                    </div>
+                    <img src="{{ site.base_url }}/img/offers/{{ offer.thumbnail }}" class="img-responsive img-centered" alt="">
+                </a>
+                <div class="offers-caption">
+                    <h4>{{ site.data.text.offers[offer.item].title }}</h4>
+                    <p class="text-muted">{{ site.data.text.offers[offer.item].subtitle }}</p>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
