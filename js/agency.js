@@ -53,6 +53,22 @@ $('div.modal').on('show.bs.modal', function() {
 	}
 });
 
+function lazyLoadModalIframe(modal) {
+    if (modal.target.getAttribute('data-lazy') === "true") {
+        var iframes = modal.target.getElementsByTagName('iframe');
+        for (var i = 0; i < iframes.length; i++) {
+            var iframe = $(iframes[i]);
+            if (iframe.data('src')){
+                iframe.prop('src', iframe.data('src')).data('src', false);
+            }
+        }
+    }
+}
+
+$('div.modal').on('show.bs.modal', function(modal) {
+    lazyLoadModalIframe(modal);
+});
+
 //Contact form
 function onContactSuccess() {
     $('#contact-form')[0].reset();

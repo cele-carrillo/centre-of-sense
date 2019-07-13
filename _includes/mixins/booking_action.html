@@ -1,0 +1,8 @@
+{% assign action = include.action %}
+{% if action.type == "link" %}
+    <a class="booking-link" href="{{ action.target }}" target="_blank">{{ action.caption }}</a>
+{% elsif action.type == "modal" %}
+    <a class="booking-link" href="#{{ action.target }}" data-toggle="modal">{{ action.caption }}</a>
+{% else %}
+    <a class="booking-link">{{ action.caption }}</a>
+{% endif %}

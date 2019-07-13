@@ -20,16 +20,38 @@ offers:
   modal-id: rolfing
   img: rolfing.jpg
   thumbnail: rolfing-thumbnail.jpg
+  booking:
+    type: single
+    action:
+      caption: book now
+      type: modal
+      target: modal-cliniko-rolfing
 
 - item: embodied-counselling
   modal-id: embodied-counselling
   img: embodied-counselling.jpg
   thumbnail: embodied-counselling-thumbnail.jpg
+  booking:
+    type: double
+    first:
+      caption: Book w/ Celeste
+      type: modal
+      target: modal-cliniko-embodied-counselling
+    second:
+      caption: Book w/ Georgia
+      type: link
+      target: http://georgiagraced.com/book-online
 
 - item: sex-intimacy-coaching
   modal-id: sex-intimacy-coaching
   img: sex-intimacy-coaching.jpg
   thumbnail: sex-intimacy-coaching-thumbnail.jpg
+  booking:
+    type: single
+    action:
+      caption: book now
+      type: link
+      target: http://georgiagraced.com/book-online
 
 - item: in-person
   modal-id: in-person
@@ -46,6 +68,13 @@ offers:
   img: workshop.jpg
   thumbnail: workshop-thumbnail.jpg
 
+iframes:
+  - id: modal-cliniko-embodied-counselling
+    url: https://somatic-balance.cliniko.com/bookings?business_id=68839&practitioner_id=107192&appointment_type_id=316124&embedded=true
+    title: Begin your journey of true self-discovery - Book a session now!
+  - id: modal-cliniko-rolfing
+    url: https://somatic-balance.cliniko.com/bookings?business_id=68839&practitioner_id=107192&appointment_type_id=316123&embedded=true
+    title: Rediscover a freer way of moving, living and being - Book a session now!
 # Team names, titles and social links
 people:
 - name: Georgia Grace
