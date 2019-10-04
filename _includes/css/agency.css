@@ -67,112 +67,70 @@ h6 {
     background-color: #222;
 }
 
-.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
-    text-transform: uppercase;
+.btn-site {
+    border-radius: 3px;
     font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
 }
 
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+.btn-site:hover,
+.btn-site:focus,
+.btn-site:active,
+.btn-site.active,
+.open .dropdown-toggle.btn-site {
     color: #fff;
     background-color: #{{ site.data.template.color.secondary }};
 }
 
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
+.btn-site:active,
+.btn-site.active,
+.open .dropdown-toggle.btn-site {
     background-image: none;
 }
 
-.btn-primary.disabled,
-.btn-primary[disabled],
-fieldset[disabled] .btn-primary,
-.btn-primary.disabled:hover,
-.btn-primary[disabled]:hover,
-fieldset[disabled] .btn-primary:hover,
-.btn-primary.disabled:focus,
-.btn-primary[disabled]:focus,
-fieldset[disabled] .btn-primary:focus,
-.btn-primary.disabled:active,
-.btn-primary[disabled]:active,
-fieldset[disabled] .btn-primary:active,
-.btn-primary.disabled.active,
-.btn-primary[disabled].active,
-fieldset[disabled] .btn-primary.active {
+.btn-site.disabled,
+.btn-site[disabled],
+fieldset[disabled] .btn-site,
+.btn-site.disabled:hover,
+.btn-site[disabled]:hover,
+fieldset[disabled] .btn-site:hover,
+.btn-site.disabled:focus,
+.btn-site[disabled]:focus,
+fieldset[disabled] .btn-site:focus,
+.btn-site.disabled:active,
+.btn-site[disabled]:active,
+fieldset[disabled] .btn-site:active,
+.btn-site.disabled.active,
+.btn-site[disabled].active,
+fieldset[disabled] .btn-site.active {
     border-color: #{{ site.data.template.color.primary }};
     background-color: #{{ site.data.template.color.primary }};
 }
 
-.btn-primary .badge {
+.btn-site .badge {
     color: #{{ site.data.template.color.primary }};
     background-color: #fff;
 }
 
-.btn-xl {
+
+.btn-site-lg {
     padding: 20px 40px;
-    border-radius: 3px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
 }
 
-.btn-xl:hover,
-.btn-xl:focus,
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-    color: #fff;
-    background-color: #{{ site.data.template.color.secondary }};
-}
-
-.btn-xl:active,
-.btn-xl.active,
-.open .dropdown-toggle.btn-xl {
-    background-image: none;
-}
-
-.btn-xl.disabled,
-.btn-xl[disabled],
-fieldset[disabled] .btn-xl,
-.btn-xl.disabled:hover,
-.btn-xl[disabled]:hover,
-fieldset[disabled] .btn-xl:hover,
-.btn-xl.disabled:focus,
-.btn-xl[disabled]:focus,
-fieldset[disabled] .btn-xl:focus,
-.btn-xl.disabled:active,
-.btn-xl[disabled]:active,
-fieldset[disabled] .btn-xl:active,
-.btn-xl.disabled.active,
-.btn-xl[disabled].active,
-fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
-}
-
-.btn-xl .badge {
-    color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
-}
-
-
-.btn-xl-secondary {
+.btn-site-md {
     padding: 10px 20px;
     text-transform: none;
     font-size: 18px;
     font-weight: lighter;
     white-space: normal;
+}
+
+.btn-site-wide {
+    width: 100%;
 }
 
 .navbar-default {
@@ -272,11 +230,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     text-align: center;
     color: #fff;
-    background-attachment: scroll;
-    background-color: #000;
-    background-image: url('{{ site.baseurl }}/img/header-bg.jpg');
-    background-position: center center;
-    background-repeat: none;
+    background: url('{{ site.baseurl }}/img/header-bg.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -788,7 +742,7 @@ section#contact .form-group input.form-control {
 }
 
 section#contact .form-group textarea.form-control {
-    height: 236px;
+    height: 155px;
 }
 
 section#contact .form-control:focus {
@@ -828,8 +782,25 @@ section#contact .text-danger {
     color: #e74c3c;
 }
 
+.contact-details {
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 5px;
+    font-family: {{ site.data.template.font.primary }};
+}
+
+.contact-details li {
+    margin-bottom: 20px;
+}
+
+@media(min-width:1200px) {
+    .contact-separator {
+        display: none;
+    }
+}
+
 footer {
-    /*padding: 25px 0;*/
     text-align: center;
 }
 

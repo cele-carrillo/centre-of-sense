@@ -3,19 +3,20 @@
         <div class="row">
             <div class="col-lg-12 text-center">
                 <h2 class="section-heading">{{ site.data.text.contact.title }}</h2>
-                    <ul class="list-inline social-buttons">
-                        {% for network in site.social %}
-                        <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }}"></i></a></li>
-                        {% endfor %}
-                    </ul>
+                <ul class="list-inline social-buttons">
+                    {% for network in site.social %}
+                    <li><a href="{{ network.url }}" target="_blank"><i class="fa fa-{{ network.title }}"></i></a></li>
+                    {% endfor %}
+                </ul>
                 <h3 class="section-subheading text-muted-light">{{ site.data.text.contact.subtitle | join: '<br>' }}</h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12">
+            <div class="col-lg-7">
+                <div id="success"></div>
                 <form id="contact-form">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-5">
                             <div class="control-group form-group">
                                 <input type="text" name="contact_name" class="form-control" placeholder="{{ site.data.text.contact.name }}" required data-validation-required-message="{{ site.data.text.contact.require_name }}">
                                 <p class="help-block text-danger"></p>
@@ -29,19 +30,26 @@
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-7">
                             <div class="control-group form-group">
                                 <textarea class="form-control" name="message" placeholder="{{ site.data.text.contact.message }}" required data-validation-required-message="{{ site.data.text.contact.require_message }}"></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="col-lg-12 text-center">
-                            <div id="success"></div>
-                            <button type="submit" class="btn btn-xl">{{ site.data.text.contact.submit }}</button>
+                            <div class="control-group form-group">
+                                <button type="submit" class="btn btn-site btn-site-md btn-site-wide"><i class="fa fa-envelope-o"></i> {{ site.data.text.contact.submit }}</button>
+                            </div>
                         </div>
                     </div>
                 </form>
+            </div>
+            <div class="col-lg-5 text-center" style="color: white">
+                <hr class="contact-separator">
+                <div class="contact-details">
+                    <ul class="fa-ul li-spaced">
+                        <li><i class="fa-li fa fa-map-marker"></i>{{ site.address1 }} - {{ site.address2 }}</li>
+                        <li><i class="fa-li fa fa-envelope"></i>{{ site.email }}</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
