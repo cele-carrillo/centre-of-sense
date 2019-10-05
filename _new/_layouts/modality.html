@@ -1,0 +1,15 @@
+---
+layout: secondary-page
+---
+
+<p class="editor-link"><a href="cloudcannon:collections/{{ page.path }}" class="btn"><strong>&#9998;</strong> Edit Modality</a></p>
+
+{{ content }}
+
+<section class="collapsed-info">
+	<div class="container flex">
+		{% for practitioner in page.practitioners %}
+		{% include author.html practitioner=practitioner %}
+		{% endfor %}
+	</div>
+</section>

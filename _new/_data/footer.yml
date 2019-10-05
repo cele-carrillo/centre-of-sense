@@ -1,0 +1,27 @@
+left_links:
+  - name: Modalities
+    link: /modalities/
+  - name: Practitioners
+    link: /practitioners/
+  - name: Bookings
+    link: /bookings/
+  - name: Contact
+    link: /contact/
+  - name: Blog
+    link: /blog/
+right_links:
+  - name:
+    link: https://www.instagram.com/centreofsense/
+    new_window: true
+    social_icon: Instagram
+  - name:
+    link: https://www.facebook.com/CentreOfSense
+    new_window: true
+    social_icon: Facebook
+  - name:
+    link: https://www.linkedin.com/company/centre-of-sense/
+    social_icon: LinkedIn
+    new_window: true
+  - name:
+    link: /feed.xml
+    social_icon: RSS
